@@ -2,8 +2,11 @@ img {
   height: 300px;
 }
 
-td:first-of-type {
+td {
   padding-right: 20px;
+}
+
+.details td:first-of-type {
   text-align: right;
   font-weight: bold;
 }

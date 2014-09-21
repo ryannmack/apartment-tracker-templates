@@ -1,0 +1,862 @@
+{
+  "410": [
+    {
+      "apartment_id": "410",
+      "square_footage": 1827,
+      "available": "11/3/2014",
+      "rent": 2869,
+      "deposit": 250,
+      "floor_plan_id": "armistead",
+      "scraped_at": "2014-09-14T22:02:42.705Z"
+    },
+    {
+      "apartment_id": "410",
+      "square_footage": 1827,
+      "available": "11/3/2014",
+      "rent": 2869,
+      "rent_text": "$2869",
+      "deposit": 250,
+      "floor_plan_id": "armistead",
+      "scraped_at": "2014-09-16T13:29:56.550Z"
+    }
+  ],
+  "405-205": [
+    {
+      "apartment_id": "405-205",
+      "square_footage": 774,
+      "available": "10/31/2014",
+      "rent": 1359,
+      "deposit": 250,
+      "floor_plan_id": "harlin_2",
+      "scraped_at": "2014-09-14T22:02:42.705Z"
+    },
+    {
+      "apartment_id": "405-205",
+      "square_footage": 774,
+      "available": "10/31/2014",
+      "rent": 1351,
+      "deposit": 250,
+      "floor_plan_id": "harlin_2",
+      "scraped_at": "2014-09-15T12:49:58.659Z"
+    },
+    {
+      "apartment_id": "405-205",
+      "square_footage": 774,
+      "available": "10/31/2014",
+      "rent": 1351,
+      "rent_text": "$1351",
+      "deposit": 250,
+      "floor_plan_id": "harlin_2",
+      "scraped_at": "2014-09-16T13:29:56.550Z"
+    }
+  ],
+  "log": [
+    {
+      "created_at": "2014-09-15T12:50:00.668Z",
+      "message": "419-205 new listing",
+      "type": "new_listing",
+      "data": {
+        "apartment_id": "419-205"
+      }
+    },
+    {
+      "created_at": "2014-09-15T12:50:00.669Z",
+      "message": "405-205 rent drop 1359 -> 1351",
+      "type": "price_drop",
+      "data": {
+        "apartment_id": "405-205",
+        "previous_rent": 1359,
+        "current_rent": 1351
+      }
+    },
+    {
+      "created_at": "2014-09-15T12:50:00.670Z",
+      "message": "421-204 rent drop 1139 -> 1131",
+      "type": "price_drop",
+      "data": {
+        "apartment_id": "421-204",
+        "previous_rent": 1139,
+        "current_rent": 1131
+      }
+    },
+    {
+      "created_at": "2014-09-15T12:50:00.670Z",
+      "message": "414-206 rent drop 1139 -> 1131",
+      "type": "price_drop",
+      "data": {
+        "apartment_id": "414-206",
+        "previous_rent": 1139,
+        "current_rent": 1131
+      }
+    },
+    {
+      "created_at": "2014-09-15T12:50:00.671Z",
+      "message": "402-304 rent drop 1280 -> 1272",
+      "type": "price_drop",
+      "data": {
+        "apartment_id": "402-304",
+        "previous_rent": 1280,
+        "current_rent": 1272
+      }
+    },
+    {
+      "created_at": "2014-09-15T12:50:00.671Z",
+      "message": "413-204 rent drop 1300 -> 1292",
+      "type": "price_drop",
+      "data": {
+        "apartment_id": "413-204",
+        "previous_rent": 1300,
+        "current_rent": 1292
+      }
+    },
+    {
+      "created_at": "2014-09-15T12:50:00.671Z",
+      "message": "406-207 rent drop 1416 -> 1408",
+      "type": "price_drop",
+      "data": {
+        "apartment_id": "406-207",
+        "previous_rent": 1416,
+        "current_rent": 1408
+      }
+    },
+    {
+      "created_at": "2014-09-15T12:50:00.672Z",
+      "message": "419-209 rent increase 1442 -> 1465",
+      "type": "price_increase",
+      "data": {
+        "apartment_id": "419-209",
+        "previous_rent": 1442,
+        "current_rent": 1465
+      }
+    },
+    {
+      "created_at": "2014-09-15T12:50:00.672Z",
+      "message": "414-309 rent increase 1470 -> 1493",
+      "type": "price_increase",
+      "data": {
+        "apartment_id": "414-309",
+        "previous_rent": 1470,
+        "current_rent": 1493
+      }
+    },
+    {
+      "created_at": "2014-09-15T12:50:00.674Z",
+      "message": "405-303 rent increase 1507 -> 1530",
+      "type": "price_increase",
+      "data": {
+        "apartment_id": "405-303",
+        "previous_rent": 1507,
+        "current_rent": 1530
+      }
+    },
+    {
+      "created_at": "2014-09-15T12:50:00.674Z",
+      "message": "419-207 new listing",
+      "type": "new_listing",
+      "data": {
+        "apartment_id": "419-207"
+      }
+    },
+    {
+      "created_at": "2014-09-15T12:50:00.674Z",
+      "message": "414-102 new listing",
+      "type": "new_listing",
+      "data": {
+        "apartment_id": "414-102"
+      }
+    },
+    {
+      "created_at": "2014-09-15T15:37:34.171Z",
+      "message": "419-207 (winstead) rent decrease 1540 -> 1530",
+      "type": "price_decrease",
+      "data": {
+        "apartment_id": "419-207",
+        "previous_rent": 1540,
+        "current_rent": 1530
+      }
+    },
+    {
+      "created_at": "2014-09-15T16:00:00.297Z",
+      "message": "414-303 (winstead) removed listing",
+      "type": "removed_listing",
+      "data": {
+        "apartment_id": "414-303"
+      }
+    },
+    {
+      "created_at": "2014-09-15T16:00:00.298Z",
+      "message": "405-302 (callicot) removed listing",
+      "type": "removed_listing",
+      "data": {
+        "apartment_id": "405-302"
+      }
+    },
+    {
+      "created_at": "2014-09-15T16:50:00.723Z",
+      "message": "406-308 (callicot) rent increase 1395 -> 1511",
+      "type": "price_increase",
+      "data": {
+        "apartment_id": "406-308",
+        "previous_rent": 1395,
+        "current_rent": 1511
+      }
+    },
+    {
+      "created_at": "2014-09-15T16:50:00.723Z",
+      "message": "414-102 (callicot) rent increase 1416 -> 1533",
+      "type": "price_increase",
+      "data": {
+        "apartment_id": "414-102",
+        "previous_rent": 1416,
+        "current_rent": 1533
+      }
+    },
+    {
+      "created_at": "2014-09-15T16:50:00.724Z",
+      "message": "420-208 (collins) rent increase 1680 -> 1796",
+      "type": "price_increase",
+      "data": {
+        "apartment_id": "420-208",
+        "previous_rent": 1680,
+        "current_rent": 1796
+      }
+    },
+    {
+      "created_at": "2014-09-15T16:50:00.725Z",
+      "message": "405-308 (collins) rent increase 1595 -> 1711",
+      "type": "price_increase",
+      "data": {
+        "apartment_id": "405-308",
+        "previous_rent": 1595,
+        "current_rent": 1711
+      }
+    },
+    {
+      "created_at": "2014-09-16T12:54:58.270Z",
+      "message": "406-308 (callicot) removed listing",
+      "type": "removed_listing",
+      "data": {
+        "apartment_id": "406-308"
+      }
+    },
+    {
+      "created_at": "2014-09-16T12:54:58.271Z",
+      "message": "414-102 (callicot) removed listing",
+      "type": "removed_listing",
+      "data": {
+        "apartment_id": "414-102"
+      }
+    },
+    {
+      "created_at": "2014-09-16T12:54:58.274Z",
+      "message": "419-209 (beasley) rent decrease 1465 -> 1392",
+      "type": "price_decrease",
+      "data": {
+        "apartment_id": "419-209",
+        "previous_rent": 1465,
+        "current_rent": 1392
+      }
+    },
+    {
+      "created_at": "2014-09-16T12:54:58.275Z",
+      "message": "414-309 (beasley) rent decrease 1493 -> 1419",
+      "type": "price_decrease",
+      "data": {
+        "apartment_id": "414-309",
+        "previous_rent": 1493,
+        "current_rent": 1419
+      }
+    },
+    {
+      "created_at": "2014-09-16T12:54:58.275Z",
+      "message": "419-207 (winstead) availability changed",
+      "type": "availability_changed",
+      "data": {
+        "apartment_id": "419-207",
+        "previous_availability": "9/20/2014",
+        "current_availability": "9/22/2014"
+      }
+    },
+    {
+      "created_at": "2014-09-16T12:54:58.276Z",
+      "message": "406-202 (callicot) new listing",
+      "type": "new_listing",
+      "data": {
+        "apartment_id": "406-202"
+      }
+    },
+    {
+      "created_at": "2014-09-16T12:54:58.277Z",
+      "message": "421-302 (callicot) new listing",
+      "type": "new_listing",
+      "data": {
+        "apartment_id": "421-302"
+      }
+    },
+    {
+      "created_at": "2014-09-16T12:54:58.281Z",
+      "message": "420-208 (collins) rent decrease 1796 -> 1735",
+      "type": "price_decrease",
+      "data": {
+        "apartment_id": "420-208",
+        "previous_rent": 1796,
+        "current_rent": 1735
+      }
+    },
+    {
+      "created_at": "2014-09-16T12:54:58.282Z",
+      "message": "405-308 (collins) rent decrease 1711 -> 1650",
+      "type": "price_decrease",
+      "data": {
+        "apartment_id": "405-308",
+        "previous_rent": 1711,
+        "current_rent": 1650
+      }
+    }
+  ],
+  "421-204": [
+    {
+      "apartment_id": "421-204",
+      "square_footage": 720,
+      "available": "Now",
+      "rent": 1139,
+      "deposit": 250,
+      "floor_plan_id": "campbell",
+      "scraped_at": "2014-09-14T22:02:42.705Z"
+    },
+    {
+      "apartment_id": "421-204",
+      "square_footage": 720,
+      "available": "Now",
+      "rent": 1131,
+      "deposit": 250,
+      "floor_plan_id": "campbell",
+      "scraped_at": "2014-09-15T12:49:58.659Z"
+    },
+    {
+      "apartment_id": "421-204",
+      "square_footage": 720,
+      "available": "Now",
+      "rent": 1131,
+      "rent_text": "$1131",
+      "deposit": 250,
+      "floor_plan_id": "campbell",
+      "scraped_at": "2014-09-16T13:29:56.550Z"
+    }
+  ],
+  "414-206": [
+    {
+      "apartment_id": "414-206",
+      "square_footage": 720,
+      "available": "Now",
+      "rent": 1139,
+      "deposit": 250,
+      "floor_plan_id": "campbell",
+      "scraped_at": "2014-09-14T22:02:42.705Z"
+    },
+    {
+      "apartment_id": "414-206",
+      "square_footage": 720,
+      "available": "Now",
+      "rent": 1131,
+      "deposit": 250,
+      "floor_plan_id": "campbell",
+      "scraped_at": "2014-09-15T12:49:58.659Z"
+    },
+    {
+      "apartment_id": "414-206",
+      "square_footage": 720,
+      "available": "Now",
+      "rent": 1131,
+      "rent_text": "$1131",
+      "deposit": 250,
+      "floor_plan_id": "campbell",
+      "scraped_at": "2014-09-16T13:29:56.550Z"
+    }
+  ],
+  "402-304": [
+    {
+      "apartment_id": "402-304",
+      "square_footage": 744,
+      "available": "10/25/2014",
+      "rent": 1280,
+      "deposit": 250,
+      "floor_plan_id": "warren",
+      "scraped_at": "2014-09-14T22:02:42.705Z"
+    },
+    {
+      "apartment_id": "402-304",
+      "square_footage": 744,
+      "available": "10/25/2014",
+      "rent": 1272,
+      "deposit": 250,
+      "floor_plan_id": "warren",
+      "scraped_at": "2014-09-15T12:49:58.659Z"
+    },
+    {
+      "apartment_id": "402-304",
+      "square_footage": 744,
+      "available": "10/25/2014",
+      "rent": 1272,
+      "rent_text": "$1272",
+      "deposit": 250,
+      "floor_plan_id": "warren",
+      "scraped_at": "2014-09-16T13:29:56.550Z"
+    }
+  ],
+  "413-204": [
+    {
+      "apartment_id": "413-204",
+      "square_footage": 744,
+      "available": "11/6/2014",
+      "rent": 1300,
+      "deposit": 250,
+      "floor_plan_id": "warren",
+      "scraped_at": "2014-09-14T22:02:42.705Z"
+    },
+    {
+      "apartment_id": "413-204",
+      "square_footage": 744,
+      "available": "11/6/2014",
+      "rent": 1292,
+      "deposit": 250,
+      "floor_plan_id": "warren",
+      "scraped_at": "2014-09-15T12:49:58.659Z"
+    },
+    {
+      "apartment_id": "413-204",
+      "square_footage": 744,
+      "available": "11/6/2014",
+      "rent": 1292,
+      "rent_text": "$1292",
+      "deposit": 250,
+      "floor_plan_id": "warren",
+      "scraped_at": "2014-09-16T13:29:56.550Z"
+    }
+  ],
+  "406-207": [
+    {
+      "apartment_id": "406-207",
+      "square_footage": 839,
+      "available": "10/15/2014",
+      "rent": 1416,
+      "deposit": 250,
+      "floor_plan_id": "noble",
+      "scraped_at": "2014-09-14T22:02:42.705Z"
+    },
+    {
+      "apartment_id": "406-207",
+      "square_footage": 839,
+      "available": "10/15/2014",
+      "rent": 1408,
+      "deposit": 250,
+      "floor_plan_id": "noble",
+      "scraped_at": "2014-09-15T12:49:58.659Z"
+    },
+    {
+      "apartment_id": "406-207",
+      "square_footage": 839,
+      "available": "10/15/2014",
+      "rent": 1408,
+      "rent_text": "$1408",
+      "deposit": 250,
+      "floor_plan_id": "noble",
+      "scraped_at": "2014-09-16T13:29:56.550Z"
+    }
+  ],
+  "419-209": [
+    {
+      "apartment_id": "419-209",
+      "square_footage": 1014,
+      "available": "10/10/2014",
+      "rent": 1442,
+      "deposit": 250,
+      "floor_plan_id": "beasley",
+      "scraped_at": "2014-09-14T22:02:42.705Z"
+    },
+    {
+      "apartment_id": "419-209",
+      "square_footage": 1014,
+      "available": "10/10/2014",
+      "rent": 1465,
+      "deposit": 250,
+      "floor_plan_id": "beasley",
+      "scraped_at": "2014-09-15T12:49:58.659Z"
+    },
+    {
+      "apartment_id": "419-209",
+      "square_footage": 1014,
+      "available": "10/10/2014",
+      "rent": 1392,
+      "deposit": 250,
+      "floor_plan_id": "beasley",
+      "scraped_at": "2014-09-16T12:54:56.600Z"
+    },
+    {
+      "apartment_id": "419-209",
+      "square_footage": 1014,
+      "available": "10/10/2014",
+      "rent": 1392,
+      "rent_text": "$1392",
+      "deposit": 250,
+      "floor_plan_id": "beasley",
+      "scraped_at": "2014-09-16T13:29:56.550Z"
+    }
+  ],
+  "414-309": [
+    {
+      "apartment_id": "414-309",
+      "square_footage": 1014,
+      "available": "11/19/2014",
+      "rent": 1470,
+      "deposit": 250,
+      "floor_plan_id": "beasley",
+      "scraped_at": "2014-09-14T22:02:42.705Z"
+    },
+    {
+      "apartment_id": "414-309",
+      "square_footage": 1014,
+      "available": "11/19/2014",
+      "rent": 1493,
+      "deposit": 250,
+      "floor_plan_id": "beasley",
+      "scraped_at": "2014-09-15T12:49:58.659Z"
+    },
+    {
+      "apartment_id": "414-309",
+      "square_footage": 1014,
+      "available": "11/19/2014",
+      "rent": 1419,
+      "deposit": 250,
+      "floor_plan_id": "beasley",
+      "scraped_at": "2014-09-16T12:54:56.600Z"
+    },
+    {
+      "apartment_id": "414-309",
+      "square_footage": 1014,
+      "available": "11/19/2014",
+      "rent": 1419,
+      "rent_text": "$1419",
+      "deposit": 250,
+      "floor_plan_id": "beasley",
+      "scraped_at": "2014-09-16T13:29:56.550Z"
+    }
+  ],
+  "414-303": [
+    {
+      "apartment_id": "414-303",
+      "square_footage": 1079,
+      "available": "Now",
+      "rent": 1264,
+      "deposit": 250,
+      "floor_plan_id": "winstead",
+      "scraped_at": "2014-09-14T22:02:42.705Z"
+    },
+    {
+      "apartment_id": "414-303",
+      "square_footage": 1079,
+      "available": false,
+      "rent": 0,
+      "deposit": 0,
+      "floor_plan_id": "winstead",
+      "scraped_at": "2014-09-14T22:02:42.705Z"
+    }
+  ],
+  "405-303": [
+    {
+      "apartment_id": "405-303",
+      "square_footage": 1079,
+      "available": "Now",
+      "rent": 1507,
+      "deposit": 250,
+      "floor_plan_id": "winstead",
+      "scraped_at": "2014-09-14T22:02:42.705Z"
+    },
+    {
+      "apartment_id": "405-303",
+      "square_footage": 1079,
+      "available": "Now",
+      "rent": 1530,
+      "deposit": 250,
+      "floor_plan_id": "winstead",
+      "scraped_at": "2014-09-15T12:49:58.659Z"
+    },
+    {
+      "apartment_id": "405-303",
+      "square_footage": 1079,
+      "available": "Now",
+      "rent": 1530,
+      "rent_text": "$1530 - $1552",
+      "deposit": 250,
+      "floor_plan_id": "winstead",
+      "scraped_at": "2014-09-16T13:29:56.550Z"
+    }
+  ],
+  "406-308": [
+    {
+      "apartment_id": "406-308",
+      "square_footage": 1224,
+      "available": "10/6/2014",
+      "rent": 1395,
+      "deposit": 250,
+      "floor_plan_id": "callicot",
+      "scraped_at": "2014-09-14T22:02:42.705Z"
+    },
+    {
+      "apartment_id": "406-308",
+      "square_footage": 1224,
+      "available": "10/6/2014",
+      "rent": 1511,
+      "deposit": 250,
+      "floor_plan_id": "callicot",
+      "scraped_at": "2014-09-15T16:49:58.287Z"
+    },
+    {
+      "apartment_id": "406-308",
+      "square_footage": 1224,
+      "available": false,
+      "rent": 0,
+      "deposit": 0,
+      "floor_plan_id": "callicot",
+      "scraped_at": "2014-09-15T16:49:58.287Z"
+    }
+  ],
+  "405-302": [
+    {
+      "apartment_id": "405-302",
+      "square_footage": 1224,
+      "available": "10/18/2014",
+      "rent": 1406,
+      "deposit": 250,
+      "floor_plan_id": "callicot",
+      "scraped_at": "2014-09-14T22:02:42.705Z"
+    },
+    {
+      "apartment_id": "405-302",
+      "square_footage": 1224,
+      "available": false,
+      "rent": 0,
+      "deposit": 0,
+      "floor_plan_id": "callicot",
+      "scraped_at": "2014-09-14T22:02:42.705Z"
+    }
+  ],
+  "420-208": [
+    {
+      "apartment_id": "420-208",
+      "square_footage": 1336,
+      "available": "10/3/2014",
+      "rent": 1680,
+      "deposit": 250,
+      "floor_plan_id": "collins",
+      "scraped_at": "2014-09-14T22:02:42.705Z"
+    },
+    {
+      "apartment_id": "420-208",
+      "square_footage": 1336,
+      "available": "10/3/2014",
+      "rent": 1796,
+      "deposit": 250,
+      "floor_plan_id": "collins",
+      "scraped_at": "2014-09-15T16:49:58.287Z"
+    },
+    {
+      "apartment_id": "420-208",
+      "square_footage": 1336,
+      "available": "10/3/2014",
+      "rent": 1735,
+      "deposit": 250,
+      "floor_plan_id": "collins",
+      "scraped_at": "2014-09-16T12:54:56.600Z"
+    },
+    {
+      "apartment_id": "420-208",
+      "square_footage": 1336,
+      "available": "10/3/2014",
+      "rent": 1735,
+      "rent_text": "$1735",
+      "deposit": 250,
+      "floor_plan_id": "collins",
+      "scraped_at": "2014-09-16T13:29:56.550Z"
+    }
+  ],
+  "405-308": [
+    {
+      "apartment_id": "405-308",
+      "square_footage": 1336,
+      "available": "10/6/2013",
+      "rent": 1595,
+      "deposit": 250,
+      "floor_plan_id": "collins",
+      "scraped_at": "2014-09-14T22:02:42.705Z"
+    },
+    {
+      "apartment_id": "405-308",
+      "square_footage": 1336,
+      "available": "10/6/2014",
+      "rent": 1595,
+      "deposit": 250,
+      "floor_plan_id": "collins",
+      "scraped_at": "2014-09-14T22:04:59.771Z"
+    },
+    {
+      "apartment_id": "405-308",
+      "square_footage": 1336,
+      "available": "10/6/2014",
+      "rent": 1711,
+      "deposit": 250,
+      "floor_plan_id": "collins",
+      "scraped_at": "2014-09-15T16:49:58.287Z"
+    },
+    {
+      "apartment_id": "405-308",
+      "square_footage": 1336,
+      "available": "10/6/2014",
+      "rent": 1650,
+      "deposit": 250,
+      "floor_plan_id": "collins",
+      "scraped_at": "2014-09-16T12:54:56.600Z"
+    },
+    {
+      "apartment_id": "405-308",
+      "square_footage": 1336,
+      "available": "10/6/2014",
+      "rent": 1650,
+      "rent_text": "$1650",
+      "deposit": 250,
+      "floor_plan_id": "collins",
+      "scraped_at": "2014-09-16T13:29:56.550Z"
+    }
+  ],
+  "419-205": [
+    {
+      "apartment_id": "419-205",
+      "square_footage": 620,
+      "available": "9/22/2014",
+      "rent": 1238,
+      "deposit": 250,
+      "floor_plan_id": "harlin_1",
+      "scraped_at": "2014-09-15T12:49:58.659Z"
+    },
+    {
+      "apartment_id": "419-205",
+      "square_footage": 620,
+      "available": "9/22/2014",
+      "rent": 1238,
+      "rent_text": "$1238",
+      "deposit": 250,
+      "floor_plan_id": "harlin_1",
+      "scraped_at": "2014-09-16T13:29:56.550Z"
+    }
+  ],
+  "419-207": [
+    {
+      "apartment_id": "419-207",
+      "square_footage": 1079,
+      "available": "9/20/2014",
+      "rent": 1540,
+      "deposit": 250,
+      "floor_plan_id": "winstead",
+      "scraped_at": "2014-09-15T12:49:58.659Z"
+    },
+    {
+      "apartment_id": "419-207",
+      "square_footage": 1079,
+      "available": "9/20/2014",
+      "rent": 1530,
+      "deposit": 250,
+      "floor_plan_id": "winstead",
+      "scraped_at": "2014-09-15T15:37:32.748Z"
+    },
+    {
+      "apartment_id": "419-207",
+      "square_footage": 1079,
+      "available": "9/22/2014",
+      "rent": 1530,
+      "deposit": 250,
+      "floor_plan_id": "winstead",
+      "scraped_at": "2014-09-16T12:54:56.600Z"
+    },
+    {
+      "apartment_id": "419-207",
+      "square_footage": 1079,
+      "available": "9/22/2014",
+      "rent": 1530,
+      "rent_text": "$1530 - $1552",
+      "deposit": 250,
+      "floor_plan_id": "winstead",
+      "scraped_at": "2014-09-16T13:29:56.550Z"
+    }
+  ],
+  "414-102": [
+    {
+      "apartment_id": "414-102",
+      "square_footage": 1224,
+      "available": "10/26/2014",
+      "rent": 1416,
+      "deposit": 250,
+      "floor_plan_id": "callicot",
+      "scraped_at": "2014-09-15T12:49:58.659Z"
+    },
+    {
+      "apartment_id": "414-102",
+      "square_footage": 1224,
+      "available": "10/26/2014",
+      "rent": 1533,
+      "deposit": 250,
+      "floor_plan_id": "callicot",
+      "scraped_at": "2014-09-15T16:49:58.287Z"
+    },
+    {
+      "apartment_id": "414-102",
+      "square_footage": 1224,
+      "available": false,
+      "rent": 0,
+      "deposit": 0,
+      "floor_plan_id": "callicot",
+      "scraped_at": "2014-09-15T16:49:58.287Z"
+    }
+  ],
+  "406-202": [
+    {
+      "apartment_id": "406-202",
+      "square_footage": 1224,
+      "available": "11/6/2014",
+      "rent": 1450,
+      "deposit": 250,
+      "floor_plan_id": "callicot",
+      "scraped_at": "2014-09-16T12:54:56.600Z"
+    },
+    {
+      "apartment_id": "406-202",
+      "square_footage": 1224,
+      "available": "11/6/2014",
+      "rent": 1450,
+      "rent_text": "$1450",
+      "deposit": 250,
+      "floor_plan_id": "callicot",
+      "scraped_at": "2014-09-16T13:29:56.550Z"
+    }
+  ],
+  "421-302": [
+    {
+      "apartment_id": "421-302",
+      "square_footage": 1224,
+      "available": "11/19/2014",
+      "rent": 1468,
+      "deposit": 250,
+      "floor_plan_id": "callicot",
+      "scraped_at": "2014-09-16T12:54:56.600Z"
+    },
+    {
+      "apartment_id": "421-302",
+      "square_footage": 1224,
+      "available": "11/19/2014",
+      "rent": 1468,
+      "rent_text": "$1468",
+      "deposit": 250,
+      "floor_plan_id": "callicot",
+      "scraped_at": "2014-09-16T13:29:56.550Z"
+    }
+  ]
+}

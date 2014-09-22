@@ -2,6 +2,47 @@
 <html>
   <head>
     <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript">
+      FLOOR_PLANS = [
+        {
+          id: 'harlin_1',
+          square_footage: 620
+        }, {
+          id: 'harlin_2',
+          square_footage: 774
+        }, {
+          id: 'campbell',
+          square_footage: 720
+        }, {
+          id: 'warren',
+          square_footage: 744
+        }, {
+          id: 'noble',
+          square_footage: 839
+        }, {
+          id: 'beasley',
+          square_footage: 1014,
+          corner: true
+        }, {
+          id: 'winstead',
+          square_footage: 1079
+        }, {
+          id: 'harris',
+          square_footage: 1077
+        }, {
+          id: 'callicot',
+          square_footage: 1224,
+          corner: true
+        }, {
+          id: 'collins',
+          square_footage: 1336,
+          corner: true
+        }, {
+          id: 'armistead',
+          square_footage: 1827
+        }
+      ];
+    </script>
   </head>
 
   <body>
@@ -9,9 +50,19 @@
 
     <h2>FLOOR PLANS</h2>
     <ul>
-    	<li><a href="harlin1.html">Harlin 1</a> 620 sq ft</li>
-    	<li>Harlin 2 774 sq ft</li>
-    	<li>Campbell 720 sq ft</li>
+      <script>
+        for (var i = 0; i <= 10; i++) {
+          var id = FLOOR_PLANS[i].id.replace(/_/g, ' ')
+          id = id.toUpperCase()[0] + id.substring(1)
+          document.write('<li>')
+            document.write('<a href="' + FLOOR_PLANS[i].id + '.html">' + id + '</a>')
+            document.write(' ' + FLOOR_PLANS[i].square_footage + ' sq ft ')
+            if (FLOOR_PLANS[i].corner) {
+              document.write('Corner Unit')
+            };
+          document.write('</li>')
+        };
+      </script>
     </ul>
 
   </body>

@@ -46,24 +46,36 @@
   </head>
 
   <body>
-    <h1>Bell Tracker</h1>
+    <div class="page-wrapper">
+      <h1>Bell Tracker</h1>
 
-    <h2>FLOOR PLANS</h2>
-    <ul>
-      <script>
-        for (var i = 0; i <= 10; i++) {
-          var id = FLOOR_PLANS[i].id.replace(/_/g, ' ')
-          id = id.toUpperCase()[0] + id.substring(1)
-          document.write('<li>')
-            document.write('<a href="' + FLOOR_PLANS[i].id + '.html">' + id + '</a>')
-            document.write(' ' + FLOOR_PLANS[i].square_footage + ' sq ft ')
-            if (FLOOR_PLANS[i].corner) {
-              document.write('Corner Unit')
-            };
-          document.write('</li>')
-        };
-      </script>
-    </ul>
+      <h2>FLOOR PLANS</h2>
+      <ul>
+        <script>
+          for (var i = 0; i <= 10; i++) {
+            var id = FLOOR_PLANS[i].id.replace(/_/g, ' ')
+            id = id.toUpperCase()[0] + id.substring(1)
+            document.write('<li>')
+              document.write('<a href="' + FLOOR_PLANS[i].id + '.html">' + id + '</a>')
+              document.write(' ' + FLOOR_PLANS[i].square_footage + ' sq ft ')
+              if (FLOOR_PLANS[i].corner) {
+                document.write('Corner Unit')
+              };
+            document.write('</li>')
+          };
+        </script>
+      </ul>
+    </div>
+
+  <footer class="site-footer">
+    <address>
+      Bell Historic Franklin<br>
+      413 Brick Path Lane<br>
+      Franklin, TN  37064<br>
+      Phone: <a href="tel:+18778047149">877.804.7149</a> 
+    </address>
+    <p>&copy;2014</p>
+  </footer>
 
   </body>
 </html>

@@ -30,6 +30,8 @@ html, body {
 
 img {
   height: 300px;
+  display: inline;
+  float: left;
 }
 
 td {

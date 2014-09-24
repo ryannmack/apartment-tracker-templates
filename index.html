@@ -58,6 +58,9 @@
             var id = FLOOR_PLANS[i].id.replace(/_/g, ' ')
             id = id.toUpperCase()[0] + id.substring(1)
             document.write('<li>')
+              document.write('<a href="' + FLOOR_PLANS[i].id + '.html">')
+              document.write('<img src="images/' + FLOOR_PLANS[i].id + '.jpg">')
+              document.write('</a>')
               document.write('<a href="' + FLOOR_PLANS[i].id + '.html">' + id + '</a>')
               document.write(' ' + FLOOR_PLANS[i].square_footage + ' sq ft ')
               if (FLOOR_PLANS[i].corner) {

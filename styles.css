@@ -58,14 +58,11 @@ li img {
 .site-footer {
   background: #B3A7CD;
   padding: 10px;
+  clear: both;
 }
 
 .floor-plan-detail-image {
   height: 600px;
-  float: left;
-}
-
-.detail {
   float: left;
 }
 

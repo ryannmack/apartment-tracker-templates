@@ -6,8 +6,31 @@ html, body {
   height: 100%;
 }
 
-ul {
-    list-style-type: none;
+h1 {
+  font-size: 2.5em;
+  color: #01ABDB;
+}
+
+h2 {
+  font-size: 1.75em;
+  color: #B46697;
+  margin: 0.5em 0;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #4653A5;
+  margin: 0.5em 0;
+}
+
+p, td, li, address {
+ font-size: 1.25em;
+ color: #002965;
+} 
+
+ul
+{
+  list-style-type: none;
 }
 
 li img {
@@ -33,7 +56,7 @@ li img {
 }
 
 .site-footer {
-  background: gray;
+  background: #B3A7CD;
 }
 
 .floor-plan-detail-image {
@@ -52,5 +75,6 @@ td {
 .details td:first-of-type {
   text-align: right;
   font-weight: bold;
+  color: #01ABDB;
 }
 

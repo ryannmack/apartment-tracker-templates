@@ -27,11 +27,18 @@ html, body {
   background: gray;
 }
 
-
-img {
+li img {
   height: 300px;
-  display: inline;
+  display: block;
+}
+
+.floor-plan-detail-image {
+  height: 600px;
   float: left;
+}
+
+.detail {
+  float: right;
 }
 
 td {

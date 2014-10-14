@@ -71,6 +71,8 @@ li img {
 .floor-plan-detail-image {
   height: 600px;
   float: left;
+  border: 3px solid #B46697;
+  margin-right: 40px;
 }
 
 td {

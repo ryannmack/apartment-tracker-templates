@@ -7,25 +7,39 @@ html, body {
 }
 
 h1 {
+  font-family: 'Tinos', serif;
+  font-weight: 700;
   font-size: 2.5em;
   color: #01ABDB;
 }
 
 h2 {
+  font-family: 'Tinos', serif;
+  font-weight: 700;
   font-size: 1.75em;
   color: #B46697;
   margin: 0.5em 0;
 }
 
 h3 {
+  font-family: 'Tinos', serif;
+  font-weight: 700;
   font-size: 1.5em;
   color: #4653A5;
   margin: 0.5em 0;
 }
 
-p, td, li, address {
- font-size: 1.25em;
- color: #002965;
+p, td, li {
+  font-size: 1.25em;
+  color: #002965;
+  font-family: sans-serif;
+} 
+
+address {
+  font-family: 'Tinos', serif;
+  font-weight: 400italic;
+  font-size: 1.25em;
+  color: #002965;
 } 
 
 ul

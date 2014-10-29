@@ -94,6 +94,8 @@ li img {
   min-height: 100%;
   /* equal to footer height */
   margin-bottom: -125px; 
+  width: 800px;
+  margin: 0 auto;
 }
 
 .page-wrapper:after {

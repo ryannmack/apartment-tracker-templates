@@ -143,6 +143,10 @@ li img {
   margin: 0 auto;
 }
 
+.floor-plan-list {
+  float: left;
+  margin-right: 40px;
+}
 
 .floor-plan-detail-image {
   height: 600px;

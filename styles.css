@@ -73,6 +73,8 @@ li img {
 
 .site-header h1 { 
   color: #ffffff;
+  width: 800px;
+  margin: 0 auto;
 }
 
 .site-header a:link { 
@@ -89,12 +91,11 @@ li img {
 
 .site-header a:active { 
   color: #4653A5; 
-} 
+}
 
 .container {
   width: 800px;
   margin: 0 auto;
-
 }
 
 .page-wrapper {
@@ -121,6 +122,12 @@ li img {
   padding: 10px;
   clear: both;
 }
+
+.site-footer p {
+  width: 800px;
+  margin: 0 auto;
+}
+
 
 .floor-plan-detail-image {
   height: 600px;

@@ -55,25 +55,28 @@
         <h1>Apartment Tracker</h1>
       </header>
 
-      <h1>FLOOR PLANS</h1>
-      <ul>
-        <script>
-          for (var i = 0; i <= 10; i++) {
-            var id = FLOOR_PLANS[i].id.replace(/_/g, ' ')
-            id = id.toUpperCase()[0] + id.substring(1)
-            document.write('<li>')
-              document.write('<a href="' + FLOOR_PLANS[i].id + '.html">')
-              document.write('<img src="images/' + FLOOR_PLANS[i].id + '.jpg">')
-              document.write('</a>')
-              document.write('<a href="' + FLOOR_PLANS[i].id + '.html">' + id + '</a>')
-              document.write(' ' + FLOOR_PLANS[i].square_footage + ' sq ft ')
-              if (FLOOR_PLANS[i].corner) {
-                document.write('Corner Unit')
-              };
-            document.write('</li>')
-          };
-        </script>
-      </ul>
+      <div class="container">
+
+        <h1>FLOOR PLANS</h1>
+        <ul>
+          <script>
+            for (var i = 0; i <= 10; i++) {
+              var id = FLOOR_PLANS[i].id.replace(/_/g, ' ')
+              id = id.toUpperCase()[0] + id.substring(1)
+              document.write('<li>')
+                document.write('<a href="' + FLOOR_PLANS[i].id + '.html">')
+                document.write('<img src="images/' + FLOOR_PLANS[i].id + '.jpg">')
+                document.write('</a>')
+                document.write('<a href="' + FLOOR_PLANS[i].id + '.html">' + id + '</a>')
+                document.write(' ' + FLOOR_PLANS[i].square_footage + ' sq ft ')
+                if (FLOOR_PLANS[i].corner) {
+                  document.write('Corner Unit')
+                };
+              document.write('</li>')
+            };
+          </script>
+        </ul>
+      </div>
     </div>
 
   <footer class="site-footer">

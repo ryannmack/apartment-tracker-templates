@@ -40,6 +40,7 @@ li {
 
 a:link { 
   color: #01ABDB;
+  text-decoration: none;
 }
 
 a:visited { 
@@ -90,12 +91,16 @@ li img {
   color: #4653A5; 
 } 
 
+.container {
+  width: 800px;
+  margin: 0 auto;
+
+}
+
 .page-wrapper {
   min-height: 100%;
   /* equal to footer height */
   margin-bottom: -125px; 
-  width: 800px;
-  margin: 0 auto;
 }
 
 .page-wrapper:after {

@@ -55,16 +55,22 @@ a:active {
   color: #4653A5; 
 } 
 
-ul
-{
+ul {
   list-style-type: none;
+  padding: 0;
+}
+
+li{
+  margin-bottom: 40px;
 }
 
 li img {
   height: 300px;
   display: block;
   border: 1px solid #B46697;
+  margin-bottom: 10px;
 }
+
 
 .site-header {
   background-color: #01ABDB;

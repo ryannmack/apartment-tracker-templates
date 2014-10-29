@@ -31,11 +31,16 @@ h3 {
 }
 
 p, 
-td, 
 li {
   font-size: 1.25em;
   color: #002965;
   font-family: sans-serif;
+}
+
+td {
+  font-size: 1.10em;
+  color: #002965;
+  font-family: sans-serif;  
 }
 
 a:link { 
@@ -155,8 +160,22 @@ li img {
   margin-right: 40px;
 }
 
-td {
-  padding-right: 20px;
+table {
+  margin-bottom: 40px;
+  border-collapse: collapse; 
+  border-spacing: 0;
+}
+
+tr {
+  border-bottom: 1px solid #D4D4D4;
+}
+
+tr>td {
+  padding: 10px  0;
+}
+
+td:first-of-type {
+  padding: 0 20px 0 0;
 }
 
 .details td:first-of-type {
